@@ -1,0 +1,22 @@
+{
+  "name": "jons-handyman-services-survey",
+  "version": "1.0.0",
+  "description": "A survey form that allows a client to rate and provide feedback for services performed.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSFAITH/jons-handyman-services-survey.git"
+  },
+  "author": "Dani Faith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSFAITH/jons-handyman-services-survey/issues"
+  },
+  "homepage": "https://github.com/DSFAITH/jons-handyman-services-survey#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
