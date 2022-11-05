@@ -1,22 +1,17 @@
-import nodemon from 'nodemon'
-
-
-nodemon ({script: 'dev.js'})
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="index.css">
-
-<h1>Jon's Handyman Services Survey</h1>
-
-
-  <p id="description">Tell us about your experience!</p>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey</title>
 </head>
 
 <body>
+  <h1>Jon's Handyman Services Survey</h1>
+  <p id="description">Tell us about your experience!</p>
+  
   <form id="survey-form">
     <label id="name-label">Name</label><input type="text" id="name" placeholder="Your name here" required>
     <label id="email-label">Email</label><input type="email"  id="email" placeholder="Email address" required>
